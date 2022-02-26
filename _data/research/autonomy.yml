@@ -1,0 +1,13 @@
+- title: Design and Analysis of Autonomous Systems
+  text: we will develop theory and computational tools for the design and analysis of autonomous systems that consist of multiple interconnected components (e.g., perception, planning, and control) that are designed under different principles and subject to specifications expressed in different languages.
+  image: research/autonomy/autonomy.png
+- title: Robustness and Interpretability in Spatiotemporal Multi-Agent Environments
+  text: We will also develop algorithms that can efficiently encode spatiotemporal reasoning within a multi-agent setting that can have widespread applications in robotics, motion planning and autonomous driving.
+  image: research/autonomy/autonomy.png
+- title: Field-Deployable Prototypes 
+  text: Advanced communication plays a critical role in autonomous systems. We will study algorithmic foundations and field-deployable prototypes of predictable, real-time wireless communication systems for XR and control systems such as those envisioned for 5G and beyond.
+  image: research/autonomy/autonomy.png
+- title: Autonomy for Vulnerable Road Users 
+  text: Users with vulnerability ranging from pre-existing diseases like diabetes, early onset of Alzheimer’s, or the mode of transportation such as cyclist and e-scooters will be studied. In all these studies, We will leverage our selfdriving car platforms that have been developed over the past few years by our team members.
+  image: research/autonomy/autonomy.png
+

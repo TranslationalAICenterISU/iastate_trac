@@ -1,0 +1,52 @@
+- title: COntext-Aware LEarning for Sustainable CybEr-agricultural (COALESCE) systems
+  PrincipalInvestigator: Soumik Sarkar
+  PI-website: http://scslab.me.iastate.edu/
+  co-PI:
+    - name: Baskar Ganapathysubramanian
+      website: https://www.me.iastate.edu/bglab
+    - name: Asheesh K Singh
+      website: 
+    - name: Arti Singh
+      website: 
+  text: ‘COntext-Aware LEarning for Sustainable CybEr-agricultural (COALESCE) systems’ seeks to design a scale-agnostic, cyber-agricultural system that provides individualized plant management (i.e., customized treatment for each individual plant/plot) over farm-level coverage areas. COALESCE is a trans-disciplinary team seeking to bring Cyber-Physical Systems (CPS) principles to sustainable agriculture. The mission is to disrupt the current agricultural practices with CPS innovations to enhance efficiency, resiliency, sustainability and autonomy. To achieve this, key technological innovations include the adaptation of individualized sensing, individualized modeling, and individualized actuation via context-aware machine learning and coordinated teams of robots that are enabled by autonomy algorithms, soft and dexterous manipulators, and adaptive networking algorithms.
+  image: projects/coalesce.jpg
+  funding-agency: National Science Foundation
+  funding-agency-website: www.nsf.gov
+  award: 1954556
+  Dates: 4/15/2021 - 3/31/2026
+  FY: 2022
+  website: https://coalesce.me.iastate.edu/
+- title: AI Institute for Resilient Agriculture
+  PrincipalInvestigator: Baskar Ganapathysubramanian
+  text: AIIRA's vision is to create new AI-driven, predictive digital twins for modeling plants, and deploy them to increase the resiliency of the nation’s agricultural systems.
+  image: projects/aiira.png
+  website: https://aiira.iastate.edu/
+  funding-agency: United States Department of Agriculture (USDA) - National Science Foundation (NSF)
+  funding-agency-website: https://www.nsf.gov/
+  FY: 2022
+  Dates: 7/2022 - 6/2024
+  award: 
+  co-PI:
+  - name: Soumik Sarkar
+    website: http://scslab.me.iastate.edu/
+  - name: Asheesh K Singh
+    website: 
+  - name: Arti Singh
+    website: 
+  - name: Adarsh Krishnamurthy
+    website: https://web.me.iastate.edu/idealab/
+- title: "LEAP-HI: AI-Optimized 3D Printing of Super-Soft Materials for Personalized Sensing"
+  PrincipalInvestigator: Baskar Ganapathysubramanian
+  text: A common need in the medical community is an ability to monitor local tissue continuously, but current sensing technology lacks the personalization necessary to contour sensors for the unique anatomy of different individuals. This Leading Engineering for America's Prosperity, Health, and Infrastructure (LEAP-HI) research seeks to develop low-cost personalized sensors which can be fabricated on demand to enhance the health and well-being of Americans from all walks of life. The approach leverages fundamental research into new materials in tandem with advanced machine learning and artificial intelligence to ‘3D print’ personalized sensors with applications in health care—from prosthetics to diagnostics and therapeutics—that could impact millions of people. These advances spanning materials science, engineering, and computation will improve the economic competitiveness of the United States’ innovation and help train the next generation of scientists and engineers through a tight synergy between experimental and computational research.
+  image: projects/leap-hi.png
+  website: 
+  funding-agency: National Science Foundation (NSF)
+  funding-agency-website: https://www.nsf.gov/
+  FY: 2022
+  Dates: 8/2021 - 7/2026
+  award: 2053760
+  co-PI:
+  - name: Adarsh Krishnamurthy
+    website: https://web.me.iastate.edu/idealab/
+  - name: Soumik Sarkar
+    website: http://scslab.me.iastate.edu/

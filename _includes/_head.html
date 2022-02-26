@@ -1,0 +1,24 @@
+{% assign url = site.baseurl | prepend: site.url %}
+
+{% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
+{% assign description = description | strip_html | escape | strip %}
+
+{% capture title %}{% if page.meta_title %}{{ page.meta_title}}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title | strip_html | strip }}{% endif %}{% endcapture %}
+
+{% assign title = title | strip_html | escape | strip_newlines %}
+
+
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<title> {{site.header.title}} </title>
+<link href="https://cdn.theme.iastate.edu/nimbus-sans/css/nimbus-sans.css" rel="stylesheet">
+<link href="https://cdn.theme.iastate.edu/merriweather/css/merriweather.css" rel="stylesheet">
+<!-- <link href="css/iastate.legacy.min.css" rel="stylesheet"> // Include if your content requires legacy IASTATE theme CSS -->
+<link href="{{ url }}/assets/css/iastate.min.css?v=2.0.16" rel="stylesheet">
+<!-- <link href="css/site.css" rel="stylesheet" media="all"> // Site-specific CSS and theme overrides -->
+<link href="https://cdn.theme.iastate.edu/favicon/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://cdn.theme.iastate.edu/favicon/favicon.png" rel="icon" type="">
+<link href="https://cdn.theme.iastate.edu/favicon/apple-touch-icon.png" rel="icon">
+<script src="https://cdn.theme.iastate.edu/fontawesome/5.0/js/all.min.js"></script>

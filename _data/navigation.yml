@@ -1,0 +1,69 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: About
+  url: "/About/"
+  side: left
+
+- title: "Research"
+  url: "/Research/"
+  side: left
+  dropdown:
+  - title: "AI Core"
+    url: "/Research/aicore/"
+  - title: "Materials, Design & Manufacturing"
+    url: "/Research/materialsdesign/"
+  - title: "Autonomy"
+    url: "/Research/autonomy/"
+  - title: "Food, Energy & Water"
+    url: "/Research/few/"
+  - title: "Ethics"
+    url: "/Research/ethics/"
+  - title: "Health & Quality of Life"
+    url: "/Research/hql/"
+
+- title: "Industry Sponsors"
+  url: "/Sponsors/"
+  side: left
+
+- title: "Projects"
+  url: "/Projects/"
+  side: left
+
+- title: "Publications"
+  url: "/Publications/"
+  side: left
+
+- title: "Activities"
+  url: "/Activities/"
+  side: left
+  dropdown:
+  - title: "Weekly Seminars"
+    url: "/Activities/seminars/"
+  - title: "Journal Club"
+    url: "/Activities/journalclub/"
+  - title: "Tutorials & Bootcamps"
+    url: "/Activities/tutorials/"
+  - title: "Workshops"
+    url: "/Activities/workshops/"
+
+# - title: Resources
+#   url: "/Resources/"
+#   side: left
+#   dropdown:
+#   - title: "How tos?"
+#     url: "/Resources/howtos/"
+#   - title: "Openings and other opportunities"
+#     url: "/Resources/opportunities/"
+
+# - title: Media
+#   url: "/blog/"
+#   side: left
+#   dropdown:
+#   - title: "Blogs"
+#     url: "/blog/archive/"
+#   - title: "Youtube Videos"
+#     url: "/blog/Youtube"
+#   - title: "Podcasts"
+#     url: "/blog/podcasts/"
