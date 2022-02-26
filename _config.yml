@@ -15,8 +15,8 @@ description: ''
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://trac.iastate.edu'
-baseurl: ''
+url: 'adityabalu.github.io'
+baseurl: 'iastate_trac'
 
 
 # Logo size is 600x80 pixels
