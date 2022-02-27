@@ -1,0 +1,57 @@
+---
+layout: default
+format: projectspage
+---
+
+{{content}}
+
+
+<!-- <div class="row t60">
+	{% for item in site.data[page.items] %}
+	{% if item.image or item.video or item.title %}
+		{% include _page-widget.html widget=item %}
+	{% endif %}
+	{% endfor %}
+</div> -->
+
+{% for project in site.data.projects %}
+<div class="panel">
+	<div class="panel-heading">
+		<div class="label"> <span class="label label-primary"> {{project.FY}} </span> </div>
+		<h4> {{project.title}} </h4>
+	</div> <!-- panel-heding -->
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-4">
+				<h4>Funding Agency</h4>
+				<div><a href="{{project.funding-agency-website}}" target="_blank">{{project.funding-agency}}</a></div>
+				<h4>Award #</h4>
+				{{project.award}}
+				<h4>Dates</h4>
+				<div>{{project.Dates}}</div>
+			</div> <!-- column -->
+			<div class="col-md-3">
+				<h4>Principal Investigator</h4>
+				<div> <a href="{{project.PI-website}}" target="_blank">{{project.PrincipalInvestigator}} </a> </div>
+				<h4>co-PIs</h4>
+				{% for co-pi in project.co-PI %}
+				<div><a href="{{co-pi.webpage}}" target="_blank">{{co-pi.name}}</a></div>
+				{% endfor %}
+			</div> <!-- column -->
+			<div class="col-md-5">
+				{% if project.image != empty %}
+				<img src="{{ site.url }}{{ site.baseurl }}/images/{{project.image }}" alt="" style="width:100%"/>
+				{% else %}
+				<p> coming soon ... </p>
+				{% endif %}
+			</div>
+		</div> <!-- row -->
+		<div class="row" style="text-align: justify; padding-left: 30px; padding-right:30px">
+			<h4>Abstract</h4>
+			<p>
+				{{project.text}}
+			</p>
+		</div>
+	</div> <!-- panel-body -->
+</div> <!-- panel -->
+{% endfor %}

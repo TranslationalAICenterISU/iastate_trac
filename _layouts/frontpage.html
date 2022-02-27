@@ -11,8 +11,31 @@
 
 
 <main role="main" id="main-content" class="">
-	<div class="container">
-	{{content}}
+		
+	<div class="jumbotron jumbotron-fluid" style="background-color: #F1BE48; padding-left: 30px; padding-right: 30px; align-items: center;">
+		<div class="row ">
+			<div class="col-md-6" >
+				{% include _carousel.html height="56" width="100" unit="%" duration="7" number="1" %}
+			</div>
+			<div class="col-md-6" >
+				{% include _news.html %}
+			</div>
+		</div>
+	</div>
+		
+	<div class="container container-fluid">
+		{% if page.widgets %}
+			<div class="jumbotron jumbotron-fluid">
+				{% for widget in page.widgets %}
+					<div class="col-md-4">
+						<a href="{{widget.url}}" class="thumbnail">
+						<img src="{{ site.url }}{{ site.baseurl }}/images/{{widget.image}}" style="align-content: center; height: 200px; width: auto;">
+						</a>
+						<a href="{{widget.url}}" class="thumbnail" style="text-align: center;"> <span class="label label-primary"> {{widget.title}} </span> </a>
+					</div>
+				{% endfor %}
+			</div>
+		{% endif %}
 	</div>
 </main>
 <!-- /main -->
