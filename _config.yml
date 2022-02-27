@@ -15,7 +15,7 @@ description: ''
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'adityabalu.github.io'
+url: 'https://adityabalu.github.io'
 baseurl: '/iastate_trac'
 
 
