@@ -55,6 +55,8 @@ exclude:
     - INSTALL.md
     - vendor
 
+address : "1111 Woi Rd, Ames, IA 50011"
+
 header:
   title: "Translational AI Center"
   image_fullwidth: "TrAC_web_landing.png"

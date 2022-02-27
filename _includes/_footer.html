@@ -7,20 +7,17 @@
             <section class="footer-associates col-sm-12 col-md-3">
                 <ul>
                     <li><a href="http://www.iastate.edu"><img src="https://cdn.theme.iastate.edu/img/isu-stacked.svg" class="wordmark-isu" alt="Iowa State University"></a></li>
-                    <li><a href="/">College of Nimbus Sans</a></li>
-                    <li><a href="/">Department of Lorem Ipsum</a></li>
+                    <li><a href="{{site.url}}">{{site.title}}</a></li>
                 </ul>
             </section>
 
     <section class="footer-contact col-sm-12 col-md-3">
         <p>
-            <strong>Department of Lorem Ipsum</strong><br>
-            <a href="https://goo.gl/maps/QmU4A2fHop32">2221 Wanda Daley Dr<br>
-Room 2922<br>
-Ames, IA 50011</a>
+            <strong>{{site.title}}</strong><br>
+            <a href="https://goo.gl/maps/crXqjkTDkPte8Yfa8"> {{site.address}} </a>
         </p>
-        <a href="mailto:theme@iastate.edu">theme@iastate.edu</a> <br>
-<a href="tel:515-294-6654">515-294-6654 phone</a>
+        <a href="mailto:soumiks@iastate.edu">soumiks@iastate.edu</a> <br>
+<a href="tel:"> phone</a>
     </section>
 
             <!-- footer-social -->
@@ -69,7 +66,10 @@ Ames, IA 50011</a>
 </div>
 <!-- /loading -->
 
+
+{% assign url = site.baseurl | prepend: site.url %}
+
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="assets/js/vendor/bootstrap.min.js"></script>
-<script src="assets/js/vendor/bootstrap-submenu.min.js"></script>
-<script src="assets/js/iastate.js"></script>
+<script src="{{url}}/assets/js/vendor/bootstrap.min.js"></script>
+<script src="{{url}}/assets/js/vendor/bootstrap-submenu.min.js"></script>
+<script src="{{url}}/assets/js/iastate.js"></script>
