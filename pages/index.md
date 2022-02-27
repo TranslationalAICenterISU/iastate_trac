@@ -18,15 +18,15 @@ carousels:
 widgets:
     -
         title: About
-        url: 'https://adityabalu.github.io/TrAC/About/'
+        url: 'https://adityabalu.github.io/iastate_trac/About/'
         image: logo.png
     -
         title: Research
-        url: 'https://adityabalu.github.io/TrAC/Research/'
+        url: 'https://adityabalu.github.io/iastate_trac/Research/'
         image: TrACResearch.png
     -
         title: Activities
-        url: 'https://adityabalu.github.io/TrAC/Publications/'
+        url: 'https://adityabalu.github.io/iastate_trac/Publications/'
         image: activities.png
 news:
     defaults:
@@ -34,7 +34,7 @@ news:
     output: true
     permalink: '/_news/:path/'
 news_limit: 5
-lastmod: '2022-02-27T02:25:53.500Z'
+lastmod: '2022-02-27T03:01:59.613Z'
 ---
 
 
