@@ -19,7 +19,7 @@ format: seminars
 <div class="row" style="padding:20px">
 	<div class="panel" style="border-color: #84e45ebf;">
 		<div class="panel-heading" style="background-color: #84e45ebf;">
-			<div class="label"> {{upcoming_talks.date}} </div>
+			<div class="label"> <span class="label label-primary"> {{upcoming_talks.date}} </span> </div>
 		</div> <!-- panel-heding -->
 		<div class="panel-body">
 			<div class="row">
@@ -49,7 +49,7 @@ format: seminars
 	{% for item in  past_talks %}
 		<div class="panel">
 			<div class="panel-heading">
-				<div class="label"> {{item.date}} </div>
+				<div class="label"> <span class="label label-primary"> {{item.date}} </span>  </div>
 			</div> <!-- panel-heding -->
 			<div class="panel-body">
 				<div class="row">
