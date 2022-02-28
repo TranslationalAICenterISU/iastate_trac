@@ -8,11 +8,9 @@ carousels:
     -
         images:
             -
-                image: carousel/team_fall_2021.png
+                image: carousel/TrAC-web-landing.png
             -
-                image: carousel/Carousel-content.png
-            -
-                image: carousel/Carousel-content.png
+                image: carousel/team-fall-2021.png
             -
                 image: carousel/Carousel-content.png
 widgets:
@@ -25,8 +23,8 @@ widgets:
         url: 'https://adityabalu.github.io/iastate_trac/Research/'
         image: TrACResearch.png
     -
-        title: Activities
-        url: 'https://adityabalu.github.io/iastate_trac/Publications/'
+        title: Education and Outreach
+        url: 'https://adityabalu.github.io/iastate_trac/Activities/'
         image: activities.png
 news:
     defaults:

@@ -1,10 +1,17 @@
-#logobanner{
+/* #logobanner{
     background: url("../../images/logo.png") 50% no-repeat; 
     height: 55vh;
     -webkit-background-size: 50%;
     -moz-background-size: 50%;
     -o-background-size: 50%;
     background-size: 50%;
+} */
+
+#logobanner{
+    height: 78vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
 }
 
 
