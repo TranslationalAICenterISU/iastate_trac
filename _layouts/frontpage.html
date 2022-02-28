@@ -12,14 +12,14 @@
 
 <main role="main" id="main-content" class="">
 		
-	<div class="jumbotron jumbotron-fluid" style="background-color: #F1BE48;">
+	<div class="jumbotron jumbotron-fluid" style="background-color: #dee28f; padding-left: 30px; padding-right: 30px;">
 		<div class="row t60" >
 			{% for widget in page.widgets %}
 			<div class="col-md-4">
 				<a href="{{widget.url}}" class="thumbnail" style="background: transparent;">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/{{widget.image}}" style="align-content: center; height: 35vh; width: auto;">
+				<img src="{{ site.url }}{{ site.baseurl }}/images/{{widget.image}}" style="align-content: center; height: 30vh; width: auto;">
 				</a>
-				<a href="{{widget.url}}" class="thumbnail" style="text-align: center; background: transparent;"> <span class="label label-primary" style="font-size: x-large"> {{widget.title}} </span> </a>
+				<a href="{{widget.url}}" class="thumbnail" style="text-align: center; background: transparent;"> <span class="label label-primary" style="font-size: large"> {{widget.title}} </span> </a>
 			</div>
 			{% endfor %}
 		</div>

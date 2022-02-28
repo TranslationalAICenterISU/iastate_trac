@@ -12,18 +12,20 @@ carousels:
             -
                 image: carousel/team-fall-2021.png
             -
-                image: carousel/Carousel-content.png
+                image: carousel/AI-carousel.mp4
+            -
+                image: carousel/Seminars.mp4
 widgets:
     -
         title: About
         url: 'https://adityabalu.github.io/iastate_trac/About/'
-        image: logo.png
+        image: TrAC.png
     -
         title: Research
         url: 'https://adityabalu.github.io/iastate_trac/Research/'
         image: TrACResearch.png
     -
-        title: Education and Outreach
+        title: Education & Outreach
         url: 'https://adityabalu.github.io/iastate_trac/Activities/'
         image: activities.png
 news:
