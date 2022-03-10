@@ -14,7 +14,7 @@ format: projectspage
 	{% endfor %}
 </div> -->
 
-{% for project in site.data.projects %}
+{% for project in site.data[page.items] %}
 <div class="panel">
 	<div class="panel-heading">
 		<div class="label"> <span class="label label-primary"> {{project.FY}} </span> </div>
@@ -33,7 +33,7 @@ format: projectspage
 			<div class="col-md-3">
 				<h4>Principal Investigator</h4>
 				<div> <a href="{{project.PI-website}}" target="_blank">{{project.PrincipalInvestigator}} </a> </div>
-				<h4>co-PIs</h4>
+				<h4>co-PIs (Within TrAC)</h4>
 				{% for co-pi in project.co-PI %}
 				<div><a href="{{co-pi.webpage}}" target="_blank">{{co-pi.name}}</a></div>
 				{% endfor %}

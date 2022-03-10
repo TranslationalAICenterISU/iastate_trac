@@ -1,0 +1,64 @@
+- title: "Filling the Gaps in Bacterial Genome Annotation Using Phylogenetic Profiling and Variational Autoencoders"
+  PrincipalInvestigator: Iddo Friedberg
+  text:
+  image: projects/aiira.png
+  website:
+  funding-agency: TrAC
+  funding-agency-website: https://www.trac-ai.iastate.edu/
+  FY: 2022
+  Dates: 7/2022 - 6/2024
+  award: 1
+  co-PI:
+  - name:
+    website:
+  - name:
+    website: 
+  - name:
+    website: 
+  - name:
+    website:
+- title: "Data-driven optimal control for parametric dynamical systems"
+  PrincipalInvestigator: Hailiang Liu
+  text:
+  image: projects/leap-hi.png
+  website: 
+  funding-agency: TrAC
+  funding-agency-website: https://www.trac-ai.iastate.edu/
+  FY: 2022
+  Dates: 8/2022 - 7/2024
+  award: 2
+  co-PI:
+  - name:
+    website:
+  - name:
+    website:
+- title: "Machine Learning for Efficient Ansatz Identification in Variational Quantum Algorithms"
+  PrincipalInvestigator: Aditya Ramamoorthy
+  text:
+  image: projects/leap-hi.png
+  website:
+  funding-agency: TrAC
+  funding-agency-website: https://www.trac-ai.iastate.edu/
+  FY: 2022
+  Dates: 8/2022 - 7/2024
+  award: 3
+  co-PI:
+  - name:
+    website:
+  - name:
+    website:
+- title: "Feedback learning for machine perception with system-level objectives"
+  PrincipalInvestigator: Tichakorn Wongpiromsarn
+  text:
+  image: projects/leap-hi.png
+  website:
+  funding-agency: TrAC
+  funding-agency-website: https://www.trac-ai.iastate.edu/
+  FY: 2022
+  Dates: 8/2022 - 7/2024
+  award: 4
+  co-PI:
+  - name:
+    website:
+  - name:
+    website:

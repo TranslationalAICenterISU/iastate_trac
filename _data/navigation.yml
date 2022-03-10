@@ -23,13 +23,20 @@
   - title: "Health & Quality of Life"
     url: "/Research/hql/"
 
-- title: "Industry Sponsors"
-  url: "/Sponsors/"
+- title: "Industry Partners"
+  url: "/Partners/"
   side: left
 
 - title: "Projects"
   url: "/Projects/"
   side: left
+  dropdown:
+  - title: "Federal"
+    url: "/Projects/Federal/"
+  - title: "Seed Grants"
+    url: "/Projects/SeedGrants"
+  - title: "Industry Sponsored"
+    url: "/Projects/Industry/"
 
 - title: "Publications"
   url: "/Publications/"
