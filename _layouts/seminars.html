@@ -28,12 +28,12 @@ format: seminars
 					<h5>{{ upcoming_talks.Affiliation }}</h5>
 				</div> <!-- column -->
 				<div class="col-md-9" style="padding:10px">
-					{% if upcoming_talks.video != empty %}
+					{% if upcoming_talks.video or upcoming_talks.flyer %}
 						<div class="responsive-embed" >
 							<embed src="{{ site.url }}/{{site.baseurl}}/seminar-flyers/{{upcoming_talks.flyer}}" width="100%" height="375"  type="application/pdf">
 						</div>
 					{% else %}
-					<p> coming soon ... </p>
+					<p> No media to show </p>
 					{% endif %}
 				</div>
 			</div> <!-- row -->
@@ -63,10 +63,12 @@ format: seminars
 							<div class="responsive-embed" >
 								<iframe width="100%" height="315" src="{{item.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
-						{% else %}
+						{% else if item.flyer %}
 							<div class="responsive-embed" >
 								<embed src="{{ site.url }}/{{site.baseurl}}/seminar-flyers/{{item.flyer}}" width="100%" height="375"  type="application/pdf">
 							</div>
+						{% else %}
+							<p> No media to show </p>
 						{% endif %}
 					</div>
 				</div> <!-- row -->
