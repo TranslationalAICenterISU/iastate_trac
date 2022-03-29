@@ -6,10 +6,13 @@ layout: default
   {{content}}
 </div>
 
-<div style="padding: 20px;">
-  <h1>Director of Translational AI Center</h1>
+<div style="padding: 10px;">
+  <h1>Members of Translational AI Center</h1>
 </div>
 
+
+
+<h2>Director</h2>
 
 {% for member in site.data.people.PI %}
 
@@ -22,7 +25,21 @@ layout: default
     <li> {{ member.description }} </li>
   </ul>
 </div>
+{% endfor %}
 
+
+<h2>Associate Director</h2>
+
+{% for member in site.data.people.co-PI %}
+<div class="row" style="padding: 15px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.photo }}" class="img-responsive" width="25%"
+    style="padding: 10px; float: left" />
+  <h4><a href="{{member.webpage}}">{{ member.name }}</a></h4>
+  <p><a href="tomail:{{member.email}}">{{ member.email }}</a></p>
+  <ul style="list-style-type:none">
+    <li> {{ member.description }} </li>
+  </ul>
+</div>
 
 {% endfor %}
 
