@@ -22,7 +22,7 @@ div.carousel-caption-description {
 	}
 
 	#carousel-img{
-		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 }
@@ -37,7 +37,7 @@ div.carousel-caption-description {
 	}
 
 	#carousel-img{
-		max-width: 100%;
+		width: 65%;
 		height: auto;
 	}
 }
@@ -52,7 +52,7 @@ div.carousel-caption-description {
 	}
 
 	#carousel-img{
-		width: 100%;
+		width: 80%;
 		height: auto;
 	}
 }
@@ -67,7 +67,7 @@ div.carousel-caption-description {
 	}
 
 	#carousel-img{
-		width: 100%;
+		width: 60%;
 		height: auto;
 	}
 }
@@ -83,8 +83,8 @@ div.carousel-caption-description {
 	}
 
 	#carousel-img{
-		width: auto;
-		height: 80vh;
+		width: 70%;
+		height: auto;
 	}
 }
 

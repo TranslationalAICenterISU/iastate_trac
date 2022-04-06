@@ -13,30 +13,36 @@ carousel:
                 link: https://trac-ai.iastate.edu/
             -
                 title:
+                caption: Different focus areas for TrAC
+                image: carousel/trac-focus-areas.png
+                link: https://trac-ai.iastate.edu/Research/
+            -
+                title:
                 caption: Translational AI Center has 40 Iowa State artificial intelligence faculty members and subject matter experts. 
                 image: carousel/team-fall-2021.png
                 link: https://trac-ai.iastate.edu/About/
             -   
                 title: 
                 caption: Roy J. Carver Co-Laboratory, home of the Translational AI Center.
-                image: carousel/roy-j-carver-colab-entrance-1.jpg 
+                image: carousel/roy-j-carver-colab-entrance-1.png 
             -   
                 title: SciML 2022
                 caption: We are organizing the first TrAC workshop on Scientific Machine Learning - Foundations and Applications.
                 image: carousel/sciml-workshop-2022.png
+                link: https://trac-ai.iastate.edu/Activities/workshops/SciML2022.html
 
 widgets:
     -
         title: About
-        url: 'https://adityabalu.github.io/iastate_trac/About/'
+        url: 'https://trac-ai.iastate.edu/About/'
         image: TrAC.png
     -
         title: Research
-        url: 'https://adityabalu.github.io/iastate_trac/Research/'
+        url: 'https://trac-ai.iastate.edu/Research/'
         image: TrACResearch.png
     -
         title: Education & Outreach
-        url: 'https://adityabalu.github.io/iastate_trac/Activities/'
+        url: 'https://trac-ai.iastate.edu/Activities/'
         image: activities.png
 news:
     defaults:
