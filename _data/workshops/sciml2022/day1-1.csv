@@ -1,0 +1,7 @@
+sequence_id,speaker,webpage,affil,affil_link,img,affil2,affil2_link,title,time
+0,Organizers,,,,,,,Welcome(15 mins),08:45 - 09:00
+1,George Karniadakis,https://www.cfm.brown.edu/faculty/gk/,Brown University,,George-Karniadakis.jpg,,,Plenary Talk,09:00 - 10:00
+2,-,,,,,,,Coffee Break,10:00 - 10:30
+3,Tarasankar DebRoy,https://www.matse.psu.edu/directory/tarasankar-debroy,Penn State University,,Tarasankar-DebRoy.jpg,,,Invited Talk 1,10:30 - 11:00
+4,Jan Drgona,https://www.pnnl.gov/people/jan-drgona,Pacific Northwest National Laboratory,,Jan-Drgona.jpg,,,Invited Talk 2,11:00 - 11:30
+5,Levon Nurbekyan,https://sites.google.com/view/lnurbek/home,"University of California, Los Angeles",,Levon-Nurbekyan.jpg,,,Invited Talk 3,11:30 - 12:00

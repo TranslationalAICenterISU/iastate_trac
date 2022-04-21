@@ -1,0 +1,101 @@
+- speaker:
+  name: George Em Karniadakis
+  # Link to the speaker's webpage
+  webpage: https://www.cfm.brown.edu/faculty/gk/
+  # Primary affiliation of the speaker
+  affil: Brown University
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: George-Karniadakis.jpg
+  title: "From PINNs to DeepOnet: Two Pillars of Scientific Machine Learning"
+  abstract: We will review physics-informed neural network and summarize available extensions for applications in computational mechanics and beyond. We will also introduce new NNs that learn functionals and nonlinear operators from functions and corresponding responses for system identification. The universal approximation theorem of operators is suggestive of the potential of NNs in learning from scattered data any continuous operator or complex system. We first generalize the theorem to deep neural networks, and subsequently we apply it to design a new composite NN with small generalization error, the deep operator network (DeepONet), consisting of a NN for encoding the discrete input function space (branch net) and another NN for encoding the domain of the output functions (trunk net). We demonstrate that DeepONet can learn various explicit operators, e.g., integrals, Laplace transforms and fractional Laplacians, as well as implicit operators that represent deterministic and stochastic differential equations. More generally, DeepOnet can learn multiscale operators spanning across many scales and trained by diverse sources of data simultaneously. 
+
+- speaker:
+  name: Tarasankar DebRoy
+  affil: Penn State University
+
+  # Link to the speaker's webpage
+  webpage: https://www.matse.psu.edu/directory/tarasankar-debroy
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Tarasankar-DebRoy.jpg
+  title: "Improved quality consistency through smart metal printing"
+
+ 
+  abstract: "Unlike welding and casting technologies that matured largely through many decades of trial and error testing, metal printing is uniquely positioned to benefit from the powerful emerging digital tools such as mechanistic modeling and machine learning. The common issues of quality consistency of 3D printed parts, particularly defects such as cracking, lack of fusion, delamination, distortion, residual stress, surface roughness, compositional change, and balling are difficult to mitigate easily using empirical testing. The expensive machines and feedstocks and the wide range of values of the additive manufacturing process variables make a large volume of physical testing expensive and time-consuming. In contrast, virtual testing using validated numerical simulation tools can provide optimized solutions to effectively mitigate defects based on scientific principles before parts are physically printed. When the underlying physical processes of metal printing can be quantified based on the laws of physics, the process variables can be connected with the formation of defects, and well-tested mechanistic numerical models can mitigate defects. When the mechanisms of defect formation are not known, machine learning provides a framework to connect the process variables with the formation of defects, especially when an adequate volume of data is available. Unlike additive manufacturing hardware and material testing and characterization facilities, mechanistic modeling and machine learning do not require expensive equipment. By significantly eliminating the influence of financial resources, the world can benefit from the scholarship, imagination, and creativity of all researchers, thus expediting the development of additive manufacturing and making the world a more welcoming place for all."
+
+- speaker:
+  name: Jan Drgona
+  affil: Pacific Northwest National Laboratory
+
+  # Link to the speaker's webpage
+  webpage: https://www.pnnl.gov/people/jan-drgona
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Jan-Drgona.jpg
+  title: "Differentiable Optimization as Lingua Franca for Scientific Machine Learning"
+
+ 
+  abstract: "Parametric programming is an area of constrained optimization, where the optimization problem is solved as a function of varying parameters. Unfortunately, classical analytical solution approaches based on sensitivity analysis and exploration of the parametric space are burdened by the curse of dimensionality that hinders their practical use. In this talk, we will present a perspective on the use of differentiable programming to obtain scalable data-driven solutions to generic parametric programming problems. We show how to formulate and solve these differentiable parametric programming (DPP) problems by leveraging automatic differentiation (AD) in gradient-based optimization. Furthermore, we will explore the connections of DPP with sensitivity analysis in classical constrained optimization and modern physics-informed machine learning. We will demonstrate the generality of the DPP approach by motivating examples of applications in various scientific and engineering domains."
+
+- speaker:
+  name: Levon Nurbekyan
+  affil: University of California, Los Angeles
+
+  # Link to the speaker's webpage
+  webpage: https://sites.google.com/view/lnurbek/home
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Levon-Nurbekyan.jpg
+  title: "Efficient natural gradient method for large-scale optimization problems"
+  
+  abstract: "We propose an efficient numerical method for computing natural gradient descent directions with respect to a generic metric in the state space. Our technique relies on representing the natural gradient direction as a solution to a standard least-squares problem. Hence, instead of calculating, storing, or inverting the information matrix directly, we apply efficient methods from numerical linear algebra to solve this least-squares problem. We treat both scenarios where the derivative of the state variable with respect to the parameter is either explicitly known or implicitly given through constraints. We apply the QR decomposition to solve the least-squares problem in the former case and utilize the adjoint-state method to compute the natural gradient descent direction in the latter case."
+
+- speaker:
+  name: Rose Yu
+  affil: University of California, San Diego
+
+  # Link to the speaker's webpage
+  webpage: https://roseyu.com/
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Rose-Yu.jpg
+  title: "Incorporating Symmetry for Learning Spatiotemporal Dynamics"
+
+  abstract: "While deep learning has shown tremendous success in many scientific domains, it remains a grand challenge to incorporate physical principles into such models. In physics, Noether’s Law gives a correspondence between conserved quantities and groups of symmetries. By building a neural network that inherently respects a given symmetry, we thus make conservation of the associated quantity more likely and consequently the model’s prediction more physically accurate. In this talk, I will demonstrate how to incorporate symmetries into deep neural networks and significantly improve physical consistency, sample efficiency, and generalization in learning spatiotemporal dynamics. I will showcase the applications of these models to challenging problems such as turbulence forecasting and trajectory prediction for autonomous vehicles."
+
+- speaker:
+  name: Baskar Ganapathysubramanian
+  affil: Iowa State University
+
+  # Link to the speaker's webpage
+  webpage: https://www.me.iastate.edu/bglab/
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Baskar.jpg
+  title: "TBD"
+  abstract: "TBD"
+
+- speaker:
+  name: Krithika Manohar
+  affil: University of Washington
+
+  # Link to the speaker's webpage
+  webpage: https://www.krithikamanohar.com/
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Krithika-Manohar.jpg
+  title: "TBD"
+  abstract: "TBD"
+
+- speaker:
+  name: Pratyush Tiwary
+  affil: University of Maryland
+
+  # Link to the speaker's webpage
+  webpage: https://sites.google.com/site/pratyushtiwary/
+
+  # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
+  img: Pratyush-Tiwary.jpg
+  title: "From Atoms to Mechanisms: Artificial Intelligence Augmented Chemistry for Molecular Simulations and Beyond"
+  abstract: "The ability to rapidly learn from high-dimensional data to make reliable predictions about the future is crucial in many contexts. This could be a fly avoiding predators, or the retina processing terabytes of data guiding complex human actions. Modern day artificial intelligence (AI) aims to mimic this fidelity and has been successful in many domains of life. It is tempting to ask if AI could also be used to understand and predict the emergent mechanisms of complex molecules with millions of atoms. In this colloquium I will show that certain flavors of AI can indeed help us understand generic molecular and chemical dynamics and also predict it even in situations with arbitrary long memories. However this requires close integration of AI with old and new ideas in statistical mechanics. I will talk about such methods developed by my group using different flavors of generative AI such as information bottleneck, recurrent neural networks and denoising probabilistic models. I will demonstrate the methods on different problems, where we predict mechanisms at timescales much longer than milliseconds while keeping all-atom/femtosecond resolution. These include ligand dissociation from flexible protein/RNA and crystal nucleation with competing polymorphs. I will conclude with an outlook for future challenges and opportunities."
+

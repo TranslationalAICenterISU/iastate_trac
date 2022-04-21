@@ -59,14 +59,16 @@ format: seminars
 						<!-- <embed src="{{ site.url }}assets/seminar-flyers/{{item.flyer}}" width="500" height="375"  type="application/pdf"> -->
 					</div> <!-- column -->
 					<div class="col-md-8" style="padding:10px">
-						{% if item.video %}
+						{% if item.video or item.flyer %}
+							{% if item.video %}
 							<div class="responsive-embed" >
 								<iframe width="100%" height="315" src="{{item.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
-						{% else if item.flyer %}
+							{% else %}
 							<div class="responsive-embed" >
 								<embed src="{{ site.url }}/{{site.baseurl}}/seminar-flyers/{{item.flyer}}" width="100%" height="375"  type="application/pdf">
 							</div>
+							{% endif %}
 						{% else %}
 							<p> No media to show </p>
 						{% endif %}
