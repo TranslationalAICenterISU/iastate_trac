@@ -27,7 +27,7 @@ In this tutorial, we will be covering the theory and practical implementation of
 | 14:30 | Algorithms – Generative Adversarial Networks | | 
 | 14:55 | Short Break | | 
 | 15:00 | Algorithms – Reinforcement Learning | | 
-| 15:30 | Algorithms – Self-Supervised Learning | | 
+| 15:30 | Algorithms – Scientific Machine Learning | | 
 | 16:00 | Emerging topics in deep learning: Interpretability, adversarial learning, distributed deep learning etc. | | 
 
 ## About Instructor
@@ -36,8 +36,4 @@ Aditya Balu is currently a Data Scientist at the Translational AI Center at Iowa
 
 ## Tutorial Website
 
-We will soon host a tutorial website which will be posted here.
-
-## Registration
-
-We will soon post the registration link here.
+All the materials regarding the tutorial are posted here: [https://translationalaicenterisu.github.io/deepdive2022/](https://translationalaicenterisu.github.io/deepdive2022/)
