@@ -35,8 +35,8 @@
     url: "/Projects/Federal/"
   - title: "Seed Grants"
     url: "/Projects/SeedGrants"
-  - title: "Industry Sponsored"
-    url: "/Projects/Industry/"
+#   - title: "Industry Sponsored"
+#     url: "/Projects/Industry/"
 
 - title: "Publications"
   url: "/Publications/"
