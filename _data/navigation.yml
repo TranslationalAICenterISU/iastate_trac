@@ -38,9 +38,21 @@
 #   - title: "Industry Sponsored"
 #     url: "/Projects/Industry/"
 
-- title: "Publications"
-  url: "/Publications/"
+# - title: "Publications"
+#   url: "/Publications/"
+#   side: left
+
+- title: Member Resources
+  url: "/Resources/"
   side: left
+  dropdown:
+  - title: "Compute Resources"
+    url: "/Resources/compute/"
+  - title: "How tos?"
+    url: "/Resources/howtos/"
+  - title: "Openings and other opportunities"
+    url: "/Resources/opportunities/"
+
 
 - title: "Education & Outreach"
   url: "/Activities/"
@@ -55,14 +67,6 @@
   - title: "Workshops"
     url: "/Activities/workshops/"
 
-# - title: Resources
-#   url: "/Resources/"
-#   side: left
-#   dropdown:
-#   - title: "How tos?"
-#     url: "/Resources/howtos/"
-#   - title: "Openings and other opportunities"
-#     url: "/Resources/opportunities/"
 
 # - title: Media
 #   url: "/blog/"
