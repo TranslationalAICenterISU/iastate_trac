@@ -55,7 +55,7 @@ exclude:
     - INSTALL.md
     - vendor
 
-address : "1111 Woi Rd, Ames, IA 50011"
+address : "2025 Black Engineering, 2529 Union Drive, Ames, IA 50011"
 
 header:
   title: "Translational AI Center"
