@@ -1,29 +1,36 @@
-name,email,department,photo,webpage,thrust_areas,research_interests
-Aditya Ramamoorthy,adityar@iastate.edu,ECpE,adityar.jpg,https://www.ece.iastate.edu/adityar/,,
-Anuj Sharma,anujs@iastate.edu,CCEE,anuj.jpg,https://www.ccee.iastate.edu/directory/profile/anujs/,,
-Anwesha Sarkar,anweshas@iastate.edu,ECpE,anwesha.jpg,https://www.engineering.iastate.edu/people/profile/anweshas/,,
-Arti Singh,arti@iastate.edu,Agronomy,arti.jpg,https://www.agron.iastate.edu/people/arti-singh,,
-Cassandra Dorius,cdorius@iastate.edu,HDFS,cassandra.jpg,https://www.datascience.iastate.edu/people/cassandra-dorius,,
-Chao Hu,chaohu@iastate.edu,ME,chao.jpg,https://www.me.iastate.edu/chaohu/team/chao-hu/,,
-Duane Johnson,ddj@iastate.edu,MSE,duane.jpg,https://www.mse.iastate.edu/the-department-2/faculty/profile/ddj/,,
-Eliot Winer,ewiner@iastate.edu,ME,eliot.jpg,https://brain.vpresearch.iastate.edu/people/eliot-winer,,
-Cody Fleming,flemingc@iastate.edu,ME,cody.jpg,http://coordinatedsystemslab.com/,,
-Guiping Hu,gphu@iastate.edu,IMSE,guiping.jpg,https://www.imse.iastate.edu/directory/guiping-hu/,,
-Hongwei Zhang,hongwei@iastate.edu,ECpE,hongwei.jpg,https://www.ece.iastate.edu/~hongwei/,,
-In-Ho Cho,icho@iastate.edu,CCEE,inho.jpg,https://www.ccee.iastate.edu/directory/profile/icho/,,
-Iddo Friedberg,"idoerg@iastate.edu, idoerg@gmail.com",VMPM,iddo.jpg,https://vetmed.iastate.edu/users/idoerg,,
-Ali Jannesari,jannesar@iastate.edu,CS,ali.jpg,https://www.cs.iastate.edu/jannesar,,
-Jin Tian,jtian@iastate.edu,CS,jin.jpg,https://faculty.sites.iastate.edu/jtian/,,
-Juan Ren,juanren@iastate.edu,ME,juan.jpg,https://www.engineering.iastate.edu/people/profile/juanren/,,
-Jue Yan,jyan@iastate.edu,Mathematics,jue.jpg,https://faculty.sites.iastate.edu/jyan/,,
-Kristin-Yvonne Rozier,kyrozier@iastate.edu,AeroE,kristin.jpg,laboratory.temporallogic.org,,
-Simon Laflamme,laflamme@iastate.edu,CCEE,simon.jpg,https://faculty.sites.iastate.edu/laflamme/,,
-Namrata Vaswani,namrata@iastate.edu,ECpE,namrata.jpg,https://www.ece.iastate.edu/~namrata/,,
-Sree Nilakanta,nilakant@iastate.edu,ISBA,sree.jpg,https://www.ivybusiness.iastate.edu/directory/nilakant/,,
-Tichakorn Wongpiromsarn,nok@iastate.edu,CS,nok.jpg,tichakorn.dev/,,
-Matthew Panthani,panthani@iastate.edu,CBE,matthew.jpg,https://www.cbe.iastate.edu/the-department/facultystaff/profile/panthani/,,
-Priyanka Jayashankar,priyanka@iastate.edu,Marketing,priyanka.jpg,https://www.ivybusiness.iastate.edu/directory/priyanka/,,
-Rizia Bardhan,rbardhan@iastate.edu,CBE,rizia.jpg,https://faculty.sites.iastate.edu/rbardhan/prof-rizia-bardhan,,
-Sarah Ryan,smryan@iastate.edu,IMSE,sarah.jpg,https://faculty.sites.iastate.edu/smryan/,,
-Carolyn Lawrence-Dill,triffid@iastate.edu,GDCB,carolyn.jpg,https://dill-picl.org/,,
-Ulrike Passe,upasse@iastate.edu,Architecture,ulrike.jpg,https://www.design.iastate.edu/faculty/upasse/,,
+name,email,department,photo,webpage,thrust_areas,research_interests,scholar,website
+Adarsh Krishnamurthy,adarsh@iastate.edu,ME,,,,,https://scholar.google.com/citations?hl=en&user=iVTMSxoAAAAJ,https://web.me.iastate.edu/idealab/p-krishnamurthy.html
+Aditya Ramamoorthy,adityar@iastate.edu,ECpE,,,,,https://scholar.google.com/citations?hl=en&user=tSTjVf4AAAAJ,https://www.ece.iastate.edu/adityar/
+Anuj Sharma,anujs@iastate.edu,CCEE,,,,,https://scholar.google.com/citations?hl=en&user=xnMScfIAAAAJ,https://www.ccee.iastate.edu/directory/profile/anujs/
+Anwesha Sarkar,anweshas@iastate.edu,ECpE,,,,,https://scholar.google.com/citations?hl=en&user=zCM1XOoAAAAJ,https://www.engineering.iastate.edu/people/profile/anweshas/
+Arti Singh,arti@iastate.edu,Agronomy,,,,,https://scholar.google.com/citations?hl=en&user=P-GSJbwAAAAJ,https://www.agron.iastate.edu/people/singh-arti-2/
+Baskar Ganapathysubramanian,baskarg@iastate.edu,ME,,,,,https://scholar.google.com/citations?hl=en&user=R1JIs4cAAAAJ,https://www.me.iastate.edu/faculty/profile/baskarg/
+Cassandra Dorius,cdorius@iastate.edu,HDFS,,,,,https://scholar.google.com/citations?hl=en&user=CbPo-SMAAAAJ,https://www.datascience.iastate.edu/people/cassandra-dorius
+Chao Hu,chaohu@iastate.edu,ME,,,,,,https://www.me.iastate.edu/chaohu/team/chao-hu/
+Duane D Johnson,ddj@iastate.edu,MSE,,,,,https://scholar.google.com/citations?hl=en&user=L9vy2hUAAAAJ,https://www.mse.iastate.edu/the-department-2/faculty/profile/ddj/
+Daniel Nettleton,dnett@iastate.edu,Statistics,,,,,,https://www.stat.iastate.edu/people/dan-nettleton
+Eliot Winer,ewiner@iastate.edu,ME,,,,,,https://www.engineering.iastate.edu/people/profile/ewiner/
+Cody Fleming,flemingc@iastate.edu,ME,,,,,https://scholar.google.com/citations?hl=en&user=Pefc1GgAAAAJ,https://www.engineering.iastate.edu/people/profile/flemingc/
+Guiping Hu,gphu@iastate.edu,IMSE,,,,,https://scholar.google.com/citations?hl=en&user=TU6P03cAAAAJ,https://www.imse.iastate.edu/directory/guiping-hu/
+Hailiang Liu,hliu@iastate.edu,Mathematics,,,,,https://scholar.google.com/citations?hl=en&user=Wq7IGEIAAAAJ,https://faculty.sites.iastate.edu/hliu/
+Hongwei Zhang,hongwei@iastate.edu,ECpE,,,,,https://scholar.google.com/citations?hl=en&user=7BKdUQsAAAAJ,https://www.ece.iastate.edu/~hongwei/
+In-Ho Cho,icho@iastate.edu,CCEE,,,,,https://scholar.google.com/citations?hl=en&user=hyTonBkAAAAJ,https://www.engineering.iastate.edu/people/profile/icho/
+Iddo Friedberg,"idoerg@iastate.edu, idoerg@gmail.com",VMPM,,,,,https://scholar.google.com/citations?hl=en&user=0NEtdwoAAAAJ,https://vetmed.iastate.edu/users/idoerg
+Ali Jannesari,jannesar@iastate.edu,CS,,,,,https://scholar.google.com/citations?hl=en&user=YhWnhQEAAAAJ,https://www.cs.iastate.edu/jannesar
+James Koltes,jekoltes@iastate.edu,Animal Science,,,,,https://scholar.google.com/citations?hl=en&user=ezFUr0AAAAAJ,https://www.ans.iastate.edu/people/james-koltes
+Janette Thompson,jrrt@iastate.edu,NREM,,,,,,https://www.enscigrad.iastate.edu/people/janette-thompson
+Jin Tian,jtian@iastate.edu,CS,,,,,https://scholar.google.com/citations?hl=en&user=T0crkfoAAAAJ,https://faculty.sites.iastate.edu/jtian/
+Juan Ren,juanren@iastate.edu,ME,,,,,https://scholar.google.com/citations?hl=en&user=5BEi3wUAAAAJ,https://www.engineering.iastate.edu/people/profile/juanren/
+Julie Dickerson,julied@iastate.edu,ECpE,,,,,https://scholar.google.com/citations?hl=en&user=H92j-LIAAAAJ,https://www.bcb.iastate.edu/people/julie-dickerson
+Jue Yan,jyan@iastate.edu,Mathematics,,,,,https://scholar.google.com/citations?hl=en&user=qb7yU7cAAAAJ,https://faculty.sites.iastate.edu/jyan/
+Kristin-Yvonne Rozier,kyrozier@iastate.edu,AeroE,,,,,,https://www.aere.iastate.edu/kyrozier/
+Simon Laflamme,laflamme@iastate.edu,CCEE,,,,,https://scholar.google.com/citations?hl=en&user=1aj91zoAAAAJ,https://faculty.sites.iastate.edu/laflamme/
+Lizhi Wang,lzwang@iastate.edu,IMSE,,,,,https://scholar.google.com/citations?hl=en&user=6aekt0YAAAAJ,https://www.imse.iastate.edu/directory/lizhi-wang/
+Jennifer Margrett,margrett@iastate.edu,HDFS,,,,,https://scholar.google.com/citations?hl=en&user=ue2C0pMAAAAJ,https://faculty.sites.iastate.edu/margrett/people/jennifer-margrett
+Namrata Vaswani,namrata@iastate.edu,ECpE,,,,,https://scholar.google.com/citations?hl=en&user=s-dQPO8AAAAJ,https://www.ece.iastate.edu/~namrata/
+Sree Nilakanta,nilakant@iastate.edu,ISBA,,,,,,https://www.ivybusiness.iastate.edu/directory/nilakant/
+Tichakorn Wongpiromsarn,nok@iastate.edu,CS,,,,,https://scholar.google.com/citations?hl=en&user=oclUWQEAAAAJ,https://faculty.sites.iastate.edu/nok/
+Matthew Panthani,panthani@iastate.edu,CBE,,,,,https://scholar.google.com/citations?hl=en&user=1ycqrrMAAAAJ,https://www.cbe.iastate.edu/the-department/facultystaff/profile/panthani/
+Priyanka Jayashankar,priyanka@iastate.edu,Marketing,,,,,https://scholar.google.com/citations?hl=en&user=RGFxiDQAAAAJ,https://www.seeds.iastate.edu/people/priyanka-jayashankar
+Rizia Bardhan,rbardhan@iastate.edu,CBE,,,,,https://scholar.google.com/citations?hl=en&user=3uffM9QAAAAJ,https://faculty.sites.iastate.edu/rbardhan/prof-rizia-bardhan
+Shawn Dorius,sdorius@iastate.edu,Sociology,,,,,https://scholar.google.com/citations?hl=en&user=CbPo-SMAAAAJ,https://soc-cj.iastate.edu/directory/dr-shawn-dorius/
