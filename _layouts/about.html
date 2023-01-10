@@ -11,7 +11,7 @@ layout: default
 </div>
 
 
-
+<div id="leadership">
 <h2>Director</h2>
 
 {% for member in site.data.people.PI %}
@@ -42,6 +42,7 @@ layout: default
 </div>
 
 {% endfor %}
+</div>
 
 
 <!-- <h2>Core Team</h2>
@@ -69,7 +70,7 @@ layout: default
 
  -->
 <br>
-
+<div id="staff_members">
 <h2>Staff Members</h2>
 
 {% assign member_list = site.data.people.staff_members | sort: "name"  %}
@@ -112,7 +113,9 @@ layout: default
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
+</div>
+<br>
+<div id="team_members">
 <h2>Other Team Members</h2>
 
 {% assign member_list = site.data.people.team | sort: "name"  %}
@@ -155,4 +158,5 @@ layout: default
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+</div>
 <br>
