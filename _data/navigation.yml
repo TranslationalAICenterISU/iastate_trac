@@ -7,13 +7,13 @@
   side: left
   dropdown:
     - title: "Leadership"
-      url: "/About/"
+      url: "/About/#leadership"
 #       url: "/About/leadership/"
     - title: "Faculty Experts"
-      url: "/About/"
+      url: "/About/#faculty_experts"
 #       url: "/About/experts/"
     - title: "Staff Members"
-      url: "/About/"
+      url: "/About/#staff_members"
 #       url: "/About/members/"
     
 
