@@ -70,6 +70,49 @@ layout: default
  -->
 <br>
 
+<h2>Staff Members</h2>
+
+{% assign member_list = site.data.people.staff_members | sort: "name"  %}
+
+{% assign number_printed = 0 %}
+{% for member in member_list %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+  {% endif %}
+
+  <div class="col-md-6" style="text-align:justify">
+    {% if member.photo %}
+    <img src="{{ site.url }}{{ site.baseurl }}/images/members/{{ member.photo }}" class="img" width="200px"
+      height="200px" style="padding: 10px; float: left" />
+    {% else %}
+    <img src="{{ site.url }}{{ site.baseurl }}/images/members/avatar.jpg" class="img" width="100px"
+      style="padding: 10px; float: left" />
+    {% endif %}
+    <h4><a href="{{member.webpage}}">{{ member.name }}</a></h4>
+    <p><a href="tomail:{{member.email}}">{{ member.email }}</a></p>
+    <br>
+    <ul style="list-style-type: none">
+      <li> <b>Thrust Area:</b> {{ member.thrust_area }} </li>
+      <li> <b>Research Interests:</b> {{ member.research_interests }}<br> </li>
+    </ul>
+  </div>
+
+  {% assign number_printed = number_printed | plus: 1 %}
+
+  {% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 <h2>Other Team Members</h2>
 
 {% assign member_list = site.data.people.team | sort: "name"  %}
