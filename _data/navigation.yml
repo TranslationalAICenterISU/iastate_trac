@@ -5,6 +5,14 @@
 - title: About
   url: "/About/"
   side: left
+  dropdown:
+    - title: "Leadership"
+      url: "/About/leadership/"
+    - title: "Faculty Experts"
+      url: "/About/experts/"
+    - title: "Staff Members"
+      url: "/About/members/"
+    
 
 - title: "Research"
   url: "/Research/"
