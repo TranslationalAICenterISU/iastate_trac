@@ -6,6 +6,8 @@
   url: "/About/"
   side: left
   dropdown:
+    - title: "Institute"
+      url: "/About"
     - title: "Leadership"
       url: "/About/#leadership"
     - title: "Staff Members"
