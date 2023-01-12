@@ -8,13 +8,10 @@
   dropdown:
     - title: "Leadership"
       url: "/About/#leadership"
-#       url: "/About/leadership/"
     - title: "Staff Members"
       url: "/About/#staff_members"
-#       url: "/About/members/"
     - title: "Faculty Experts"
       url: "/About/#faculty_experts"
-#       url: "/About/experts/"
     
 
 - title: "Research"
