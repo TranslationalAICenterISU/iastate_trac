@@ -38,6 +38,11 @@
 - title: "Industry Partners"
   url: "/Partners/"
   side: left
+  dropdown:
+    - title: "John Deer"
+      url: "/Partners/JohnDeer"
+    - title: "Bayer"
+      url: "/Partners/Bayer"
 
 - title: "Projects"
   url: "/Projects/"

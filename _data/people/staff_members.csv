@@ -1,2 +1,5 @@
-name,email,department,photo,thrust_areas,scholar,website
-Aditya Balu,baditya@iastate.edu,TRAC,aditya.jpg,,https://scholar.google.com/citations?user=GNuXi6oAAAAJ&hl=en&oi=ao,https://adityabalu.github.io/
+name,email,department,photo,scholar,website,designation
+Aditya Balu,baditya@iastate.edu,TRAC,aditya.jpg,https://scholar.google.com/citations?user=GNuXi6oAAAAJ&hl=en&oi=ao,https://adityabalu.github.io/,Data Scientist
+Jessica Bell,jmpbell@iastate.edu,TRAC,jessica.jpeg,,,Project Manager
+Melissa Gagne,mjgagne@iastate.edu,TRAC,melissa.jpg,,,Finance Specialist
+Cameron Jones,normac@iastate.edu,TRAC,cameron.jpeg,,,Administrative Specialist
