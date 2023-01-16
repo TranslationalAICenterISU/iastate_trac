@@ -1,7 +1,7 @@
 ---
 title: "Compute Resources"
-layout: research
-excerpt: "About TrAC Research"
+layout: default
+excerpt: "Compute resources"
 sitemap: false
 permalink: /Resources/compute/
 ---
