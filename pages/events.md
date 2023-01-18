@@ -13,4 +13,3 @@ permalink: /events.html
   <em>{{ event.description }}</em></p>
   {% endfor %}
 
-# see news.yml for reference

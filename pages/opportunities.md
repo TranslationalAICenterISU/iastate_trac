@@ -12,5 +12,3 @@ permalink: /Resources/opportunities.html
   <p>{{ opportunity.date }} <br>
   <em>{{ oppotunity.position }}</em></p>
   {% endfor %}
-
-# see news.yml for reference
