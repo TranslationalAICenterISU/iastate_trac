@@ -71,9 +71,10 @@ layout: default
  -->
 <br>
 <div id="staff_members">
-<h2>Staff Members</h2>
+
 
 {% assign member_list = site.data.people.staff_members | sort: "name"  %}
+  <h2>Staff Members ({{ member_list.size }})</h2>
 
 {% assign number_printed = 0 %}
 {% for member in member_list %}
@@ -115,10 +116,10 @@ layout: default
 </div>
 <br>
 <div id="faculty_experts">
-<h2>Faculty Experts</h2>
+
 
 {% assign member_list = site.data.people.team | sort: "name"  %}
-
+  <h2>Faculty Experts ({{ member_list.size }}) </h2>
 {% assign number_printed = 0 %}
 {% for member in member_list %}
 
@@ -140,7 +141,9 @@ layout: default
     <p><a href="mailto:{{member.email}}">{{ member.email }}</a></p>
     <br>
     <ul style="list-style-type: none">
+      {% if member.thrust_areas.size > 0 %}
       <li> <b>Thrust Area:</b> {{ member.thrust_areas }} </li>
+      {% endif %}
     </ul>
   </div>
 

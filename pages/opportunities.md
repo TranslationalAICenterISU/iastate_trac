@@ -6,8 +6,8 @@ sitemap: false
 permalink: /Resources/opportunities.html
 ---
 
-# News
-
+# Opportunities
+To be announced
 {% for opportunity in site.data.opportunities %}
   <p>{{ opportunity.date }} <br>
   <em>{{ oppotunity.position }}</em></p>
