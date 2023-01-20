@@ -10,7 +10,7 @@ TrAC will focus on core AI research and its translational applications to variou
 
 ## Pre-Award Resources
 
-TrAC (Jessica Bell and Melissa Gagne) offers our Faculty Experts pre-award support with proposals routing through the Center. To request pre-award support, please complete this form or email Jessica Bell at jmpbell@iastate.edu.
+TrAC (Jessica Bell and Melissa Gagne) offers our Faculty Experts pre-award support with proposals routing through the Center. To request pre-award support, please complete this [form](https://app.smartsheet.com/b/form/f5ef3113aade4980b2fd102e49e1eb35) or email Jessica Bell at [jmpbell@iastate.edu](mailto:jmpbell@iastate.edu).
 Services include:
 * Goldsheet preparation and submission
 * Budget and Budget Justification support
