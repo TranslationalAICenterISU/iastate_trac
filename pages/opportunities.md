@@ -6,7 +6,7 @@ sitemap: false
 permalink: /Resources/opportunities/
 ---
 
-# Opportunities
+## Opportunities
 To be announced
 {% for opportunity in site.data.opportunities %}
   <p>{{ opportunity.date }} <br>

@@ -1,9 +1,9 @@
 ---
 title: "Industry Partners"
-layout: default
+layout: IndustryPartners
 excerpt: "About industry partners"
 sitemap: false
-permalink: /Partners/
+permalink: /IndustryPartners/
 ---
 
 This site is under construction. The information on industry partners will be added soon.
