@@ -22,18 +22,6 @@
   dropdown:
     - title: "Thrust Areas"
       url: "/Research/"
-#    - title: "AI Core"
-#      url: "/Research/aicore/"
-#    - title: "Materials, Design & Manufacturing"
-#      url: "/Research/materialsdesign/"
-#    - title: "Autonomy"
-#      url: "/Research/autonomy/"
-#    - title: "Food, Energy & Water"
-#      url: "/Research/few/"
-#    - title: "Ethics"
-#      url: "/Research/ethics/"
-#    - title: "Health & Quality of Life"
-#      url: "/Research/hql/"
     - title: "Research Products"
       url: "/Publications/"
 

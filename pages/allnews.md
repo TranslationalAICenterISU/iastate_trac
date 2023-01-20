@@ -3,7 +3,7 @@ title: "News"
 layout: default
 excerpt: "all news"
 sitemap: false
-permalink: /allnews.html
+permalink: /allnews/
 ---
 
 # News

@@ -3,7 +3,7 @@ title: "Opportunities"
 layout: default
 excerpt: "opportunities"
 sitemap: false
-permalink: /Resources/opportunities.html
+permalink: /Resources/opportunities/
 ---
 
 # Opportunities

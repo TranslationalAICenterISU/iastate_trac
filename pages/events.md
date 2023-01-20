@@ -3,7 +3,7 @@ title: "Events"
 layout: default
 excerpt: "events"
 sitemap: false
-permalink: /events.html
+permalink: /events/
 ---
 
 # Events
