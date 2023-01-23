@@ -12,4 +12,3 @@ To be announced.
   <p>{{ event.date }} <br>
   <em>{{ event.description }}</em></p>
   {% endfor %}
-

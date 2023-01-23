@@ -6,4 +6,4 @@ sitemap: false
 permalink: /IndustryPartners/
 ---
 
-This site is under construction. The information on industry partners will be added soon.
+# Industry Partners
