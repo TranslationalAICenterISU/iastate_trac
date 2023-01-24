@@ -1,6 +1,6 @@
 ---
 title: "Events"
-layout: default
+layout: events
 excerpt: "events"
 sitemap: false
 permalink: /events/
