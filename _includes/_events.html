@@ -2,11 +2,7 @@
     <h4>Events</h4>
 
     <div class="well">
-        {% for article in site.data.events limit:3 %}
-        {{ article.date }}
-        <p>{{ article.headline }}</p>
-        {% endfor %}
-
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=America%2FChicago&mode=AGENDA&showTz=0&showTabs=0&showPrint=0&showNav=0&showTitle=0&showDate=0&showCalendars=0&src=ODUzZDhlYjI5OWE2NmQ4OGYyZTQ3ODFiNTM2MzgxYzZjMmE5N2NjYmFmYWMzNmI1OTUxZDIyZTgzODQxMzY3NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
         <h4><a href="{{ site.url }}{{ site.baseurl }}/events">... see all Events</a></h4>
 
     </div>
