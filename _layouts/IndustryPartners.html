@@ -7,34 +7,33 @@ format: IndustryPartners
 
 {% assign partner_list = site.data.industrypartners | sort: "Name" %}
 {% for partner in partner_list%}
-<div class="panel">
-    <div class="panel-heading">
-<!--        <div class="label"> <span class="label label-primary"> {{project.FY}} </span> </div>-->
-        <h4> {{partner.Name}} </h4>
-    </div> <!-- panel-heding -->
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Reach us:</h4>
-                <div><a href="{{partner.Website}}" target="_blank">Website</a></div>
-            </div> <!-- column -->
-            <div class="col-md-5">
+<div class="panel" >
+    <div>
+        <div class="panel-heading" style="display: flex;">
+            <!--        <div class="label"> <span class="label label-primary"> {{project.FY}} </span> </div>-->
+            <div style="flex: 1; padding: 10px; background-color: white; align-items: center; text-align: center; border-radius: 25px">
                 {% if partner.Logo != empty %}
-                <img src="{{ site.url }}{{ site.baseurl }}/images/industrypartners/{{partner.Logo }}" alt="" style="max-height:100px"/>
+                <a href="{{partner.Website}}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/industrypartners/{{partner.Logo }}" alt="" style="max-height:50px; vertical-align: middle;"/></a>
                 {% endif %}
             </div>
-        </div> <!-- row -->
+            <div style="flex: 5; padding: 10px;">
+                <h4> <a href="{{partner.Website}}" target="_blank">{{partner.Name}}</a> </h4>
+            </div>
 
-        <div class="row" style="text-align: justify; padding-left: 30px; padding-right:30px">
-            {% if partner.Description != empty %}
-            <h4>About</h4>
-            <p>
-                {{partner.Description}}
-            </p>
-            {% endif %}
-        </div>
+        </div> <!-- panel-heding -->
+        <div class="panel-body">
+            <div class="row" style="text-align: justify; padding-left: 30px; padding-right:30px">
+                {% if partner.Description != empty %}
+                <h4>About</h4>
+                <p>
+                    {{partner.Description}}
+                </p>
+                {% endif %}
+            </div>
 
-    </div> <!-- panel-body -->
+        </div> <!-- panel-body -->
+    </div>
+
 </div> <!-- panel -->
 
 {% endfor %}
