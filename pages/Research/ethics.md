@@ -7,5 +7,3 @@ items: ethics
 ---
 
 # Ethics, Fairness, and Adoption
-
-More content to add here...

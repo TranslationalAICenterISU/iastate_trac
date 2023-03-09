@@ -1,9 +1,15 @@
 - title: Physics Informed Machine Learning
   text: Application of AI in many science and engineering problems requires incorporation of physics (first principles) of the problems into AI models to guarantee physically meaningful model outcomes as well as reduce training data requirement. Our team members have made pioneering contributions in this emerging field of study.
-  image: research/aicore/aicore.png
+#  image: research/aicore/aicore.png
 - title: Robust and Interpretable Machine Learning
   text: We explore robustness, interpretability and learning from heterogeneous data types such as spatial, temporal and spatiotemporal data. In addition, we also explore natural language processing methods to analyze language-based biological data to construct knowledge graphs that assist in generation of testable hypotheses for genetics and agricultural applications.
-  image: research/aicore/aicore.png
+#  image: research/aicore/aicore.png
 - title: Neural-symbolic AI
   text: We explore robustness, interpretability and learning from heterogeneous data types such as spatial, temporal and spatiotemporal data. In addition, we also explore natural language processing methods to analyze language-based biological data to construct knowledge graphs that assist in generation of testable hypotheses for genetics and agricultural applications.
-  image: research/aicore/aicore.png
+#  image: research/aicore/aicore.png
+- title: Uncertainty quantification in ML/DL
+  text: Theory and applications for Quantifying Uncertainty in Machine/Deep Learning Models
+#  image: research/aicore/aicore.png
+- title: Explainable AI
+  text: Theory and applications of explainable AI for science, engineering, and social applications
+#  image: research/aicore/aicore.png

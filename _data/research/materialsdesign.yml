@@ -1,6 +1,12 @@
 - title: Designing Organic Photovoltaic Cells
   text: Designing optoelectronic materials for energy, computing, and sensing applications
-  image: research/materialsdesign/materialsdesign.png
+#  image: research/materialsdesign/materialsdesign.png
 - title: High Entropy Alloys
   text: Incorporating physics-based design of materials properties, such as high-entropy alloys for advanced manufacturing LENS systems with high-temperature, ultrahard systems
-  image: research/materialsdesign/materialsdesign.png
+#  image: research/materialsdesign/materialsdesign.png
+- title: AI-enabled material discovery
+  text: AI approaches for material discovery. Approaches include (but not limited to) autonomous exploration, coupled experiment-computational workflows, expert elicitation. Applications include (but not limited to) materials for energy efficient systems.
+  #  image: research/materialsdesign/materialsdesign.png
+- title: AI-enabled cybermanufacturing
+  text: Data analytics and machine learning for improving manufacturing processes. AI approaches to building digital twins, secure manufacturing, multi-scale, and multi-material processing, non-destructive evaluation, part quality management, and online adaptation.
+  #  image: research/materialsdesign/materialsdesign.png

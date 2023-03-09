@@ -7,5 +7,3 @@ items: few
 ---
 
 # Food, Energy and Water
-
-More content to add here...

@@ -6,6 +6,5 @@ permalink: /Research/hql/
 items: hql
 ---
 
-# {{page.excerpt}}
+# Health & Quality of Life
 
-More content to add here...

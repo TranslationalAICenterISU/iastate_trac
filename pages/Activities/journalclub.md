@@ -14,26 +14,9 @@ TrAC Journal Club will help students and researchers to stay current with the la
 
 TrAC Journal Club will be happening on ***Fridays 3-4PM Central Time***. Please join us in zoom : [https://iastate.zoom.us/j/93596996347?pwd=c2xlZEJoSlNpcWJ6V2lKZmNuRHZCUT09](https://iastate.zoom.us/j/93596996347?pwd=c2xlZEJoSlNpcWJ6V2lKZmNuRHZCUT09).
 
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTz=0&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=1&src=ODgzMTVlOTAwNWQ3NTBlZGVlNDE4ZjY1NmUxMDM0NWIwYzg4NzMxZDljYmY1OGMxZjkxZWRiNWUwODA1NGUzZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-## Schedule
-
-The following is the tentative schedule for the TrAC Journal Club.
-
-<table>
-  {% for row in site.data.journalclubschedule %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-</table>
+For information on past talks, please click <a href="{{ site.url }}{{ site.baseurl }}/Activities/journalclub/past">here</a>.
 
 ## Contact
 
