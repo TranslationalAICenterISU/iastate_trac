@@ -2,7 +2,7 @@
 layout: default
 excerpt: "Students Journal Club"
 sitemap: false
-permalink: /Activities/journalclub/past
+permalink: /Activities/journalclub/past/
 ---
 
 # TrAC Student Journal Club

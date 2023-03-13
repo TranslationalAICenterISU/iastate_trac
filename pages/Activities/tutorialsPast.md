@@ -2,7 +2,7 @@
 layout: default
 excerpt: "Tutorials and Bootcamps"
 sitemap: false
-permalink: /Activities/tutorials/past
+permalink: /Activities/tutorials/past/
 ---
 
 # Tutorials and Bootcamps

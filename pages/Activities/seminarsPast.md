@@ -2,5 +2,5 @@
 layout: seminarsPast
 excerpt: "Weekly Seminars"
 sitemap: false
-permalink: /Activities/seminars/past
+permalink: /Activities/seminars/past/
 ---
