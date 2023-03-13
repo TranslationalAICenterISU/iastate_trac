@@ -5,8 +5,6 @@ format: seminars
 
 
 {% assign all_talks = site.data.seminars | reverse %}
-{% assign past_talks = all_talks | shift %}
-{% assign upcoming_talks = all_talks | first %}
 <h1> TrAC Weekly Seminar Series </h1>
 
 <p>
@@ -19,29 +17,6 @@ format: seminars
 		<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTz=0&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=1&src=YWU2ZTQ1NTAzOWViYWE3OTEwNjAxZjQ3MzFkZDBiMDE5YTVjMDY0ZWUyYWZhZmI2YjAzNTY0NjFmMTE0MDUxOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 	</div>
 </main>
-<div class="row" style="padding:20px">
-	<div class="panel" style="border-color: #84e45ebf;">
-		<div class="panel-heading" style="background-color: #84e45ebf;">
-			<div class="label"> <span class="label label-primary"> {{upcoming_talks.date}} </span> </div>
-		</div> <!-- panel-heding -->
-		<div class="panel-body">
-			<div class="row">
-				<div class="col-md-3">
-					<h4> {{ upcoming_talks.Presenter }}</h4>
-					<h5>{{ upcoming_talks.Affiliation }}</h5>
-				</div> <!-- column -->
-				<div class="col-md-9" style="padding:10px">
-					{% if upcoming_talks.video or upcoming_talks.flyer %}
-						<div class="responsive-embed" >
-							<embed src="{{ site.url }}/{{site.baseurl}}/seminar-flyers/{{upcoming_talks.flyer}}" width="100%" height="375"  type="application/pdf">
-						</div>
-					{% else %}
-					<p> No media to show </p>
-					{% endif %}
-				</div>
-			</div> <!-- row -->
-		</div> <!-- panel-body -->
-	</div>
-</div>
+
 
 For information on past seminars, please click <a href="{{ site.url }}{{ site.baseurl }}/Activities/seminars/past">here</a>.
